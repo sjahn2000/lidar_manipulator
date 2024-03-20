@@ -1,0 +1,8 @@
+<launch>
+
+    <!-- Run lidar_accumulator_node -->
+    <node name="lidar_accumulator_node" pkg="lidar_accumulator" type="lidar_accumulator_node" output="screen"/>
+
+    <!-- Run RViz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lidar_accumulator)/config/pointcloud_rviz_config.rviz" respawn="false" output="screen"/>
+</launch>
