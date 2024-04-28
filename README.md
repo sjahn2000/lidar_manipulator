@@ -4,7 +4,7 @@ ros noetic
 ### HARDWARE 
 rplidar A1M8, OpenManipulator-X
 
-
+### purpose
 2D LaserScan => 3D PointCloud2 following end-effector's state  
 
 
