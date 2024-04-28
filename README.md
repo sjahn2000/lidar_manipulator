@@ -13,18 +13,17 @@ rplidar A1M8, OpenManipulator-X
 
 
 ### INSTALL 
-
-  $ cd catkin_ws/src  
-  $ git clone https://github.com/sjahn2000/lidar_manipulator.git
+    $ cd catkin_ws/src  
+    $ git clone https://github.com/sjahn2000/lidar_manipulator.git
 
 ### BUILD  
 
-  $ cd .. && catkin_make  
-  $ source dev/setup.bash
+    $ cd .. && catkin_make  
+    $ source dev/setup.bash
 
 ### LAUNCH  
 
-  $ roslaunch lidar_manipulator lidar_manipulator.launch
+    $ roslaunch lidar_manipulator lidar_manipulator.launch
 
 (But if you want this package to work properly, you should also launch rplidar_ros and open_manipulator_controller. So, refer to the links below)  
 https://github.com/Slamtec/rplidar_ros  
