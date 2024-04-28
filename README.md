@@ -1,8 +1,28 @@
+<ROS version>
 ros noetic
 
-rplidar a1m8 with OpenManipulator-x
+<HARDWARE>
+rplidar A1M8, OpenManipulator-X
+
 
 2D LaserScan => 2D PointCloud2
 
+
+
+![Screenshot from 2024-04-17 11-17-25](https://github.com/sjahn2000/lidar_manipulator/assets/60663351/edaf41c2-5d07-4bfa-8d7a-5a4235ae80db)
+
+
+<INSTALL>
 $ cd catkin_ws/src
-$ git clone 
+$ git clone https://github.com/sjahn2000/lidar_manipulator.git
+
+<BUILD>
+$ cd .. && catkin_make
+$ source dev/setup.bash
+
+<LAUNCH>
+roslaunch lidar_manipulator lidar_manipulator.launch
+
+(But if you want this package to work properly, you should also launch rplidar_ros and open_manipulator_controller. So, refer to the links below)
+https://github.com/Slamtec/rplidar_ros
+https://github.com/ROBOTIS-GIT/open_manipulator
