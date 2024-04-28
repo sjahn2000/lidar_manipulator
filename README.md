@@ -4,11 +4,12 @@ ros noetic
 HARDWARE  
 rplidar A1M8, OpenManipulator-X
 
-2D LaserScan => 2D PointCloud2  
+2D LaserScan => 3D PointCloud2 following end-effector's state  
 
 
 
 ![Screenshot from 2024-04-17 11-17-25](https://github.com/sjahn2000/lidar_manipulator/assets/60663351/edaf41c2-5d07-4bfa-8d7a-5a4235ae80db)
+![image](https://github.com/sjahn2000/lidar_manipulator/assets/60663351/d6321a60-086a-4e09-92dd-34c48b5c223c)
 
 
 INSTALL  
