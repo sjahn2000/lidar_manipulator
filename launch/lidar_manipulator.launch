@@ -1,0 +1,5 @@
+<launch>
+    <node name="lidar_manipulator_node" pkg="lidar_manipulator" type="lidar_manipulator_node" output="screen" />
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lidar_manipulator)/config/lidar_manipulator.rviz"/>
+</launch>
